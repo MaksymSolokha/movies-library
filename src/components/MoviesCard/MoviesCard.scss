@@ -1,0 +1,43 @@
+.movies-card {
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  cursor: pointer;
+  position: relative;
+  display: block;
+  background: rgba(32, 40, 62, 0.8);
+  backdrop-filter: blur(40px);
+  border-radius: 12px;
+  padding: 8px 8px 16px 8px;
+  img {
+    width: 100%;
+    transition: transform 0.3s;
+  }
+  &:hover {
+    .movies-poster {
+      transform: scale(105%);
+    }
+  }
+}
+.movies-poster-wrapper {
+  overflow: hidden;
+}
+.movies-rating-wrapper {
+}
+.movies-rating {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+}
+.movies-name {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ebeef5;
+}

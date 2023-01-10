@@ -1,0 +1,29 @@
+.notfoundpage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	img {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	&-title {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 56px;
+		text-align: center;
+		letter-spacing: -0.02em;
+		color: #ebeef5;
+		margin-bottom: 16px;
+	}
+	&-subtitle {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		color: #8e95a9;
+		margin-bottom: 24px;
+	}
+}

@@ -1,0 +1,16 @@
+.footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 15px;
+
+	&-text {
+		color: #767e94;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+	}
+}

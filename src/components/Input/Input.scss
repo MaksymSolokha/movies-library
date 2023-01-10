@@ -1,0 +1,53 @@
+.input {
+  display: inline-block;
+  cursor: text;
+  margin-top: 24px;
+  position: relative;
+  width: 100%;
+
+  img {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    height: 24px;
+  }
+  input {
+    border: 1px solid #323b54;
+    width: 50%;
+    padding: 28px 16px 12px 56px;
+    background: transparent;
+    border-radius: 12px;
+    color: #979eb3;
+    outline: none;
+    cursor: text;
+    &::placeholder {
+      opacity: 0;
+    }
+    &:focus {
+      border-color: #5b4af4;
+      &::placeholder {
+        opacity: 0.8;
+      }
+    }
+  }
+  label {
+    position: absolute;
+    top: 24px;
+    left: 56px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #475069;
+    cursor: text;
+    transition: transform 0.3s;
+  }
+}
+
+.input input:focus + label {
+  transform: translateY(-12px);
+  color: #979eb3;
+  border-color: #5b4af4;
+}
+
+.label-nonempty {
+  transform: translateY(-12px);
+}
