@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/movies-library/static/css/main.9737f616.css",
-    "main.js": "/movies-library/static/js/main.e08ab295.js",
-    "static/media/Background.png": "/movies-library/static/media/Background.bc52e61cee20fe55baac.png",
-    "static/media/pagenotfound.svg": "/movies-library/static/media/pagenotfound.8b5dae9f05d770a2009b5d4d524629e2.svg",
-    "index.html": "/movies-library/index.html",
-    "static/media/star.svg": "/movies-library/static/media/star.136072635abb1085dd06907f49219d55.svg",
-    "static/media/logo.svg": "/movies-library/static/media/logo.b8130fa711cd42e7ad35c79db34e4416.svg",
-    "static/media/search-normal.svg": "/movies-library/static/media/search-normal.54ae83a4991dc462054d086f772fec89.svg",
-    "main.9737f616.css.map": "/movies-library/static/css/main.9737f616.css.map",
-    "main.e08ab295.js.map": "/movies-library/static/js/main.e08ab295.js.map"
+    "main.css": "/static/css/main.2fd9632a.css",
+    "main.js": "/static/js/main.fc25980e.js",
+    "static/media/Background.png": "/static/media/Background.bc52e61cee20fe55baac.png",
+    "static/media/pagenotfound.svg": "/static/media/pagenotfound.8b5dae9f05d770a2009b5d4d524629e2.svg",
+    "static/media/star.svg": "/static/media/star.136072635abb1085dd06907f49219d55.svg",
+    "index.html": "/index.html",
+    "static/media/logo.svg": "/static/media/logo.b8130fa711cd42e7ad35c79db34e4416.svg",
+    "static/media/search-normal.svg": "/static/media/search-normal.54ae83a4991dc462054d086f772fec89.svg",
+    "main.2fd9632a.css.map": "/static/css/main.2fd9632a.css.map",
+    "main.fc25980e.js.map": "/static/js/main.fc25980e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9737f616.css",
-    "static/js/main.e08ab295.js"
+    "static/css/main.2fd9632a.css",
+    "static/js/main.fc25980e.js"
   ]
 }
